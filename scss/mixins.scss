@@ -5,11 +5,11 @@
           border-radius: $radius;
 }
 
-@mixins border-style($style) {
+@mixin border-style($style) {
   border-style: $style;
 }
 
-@mixins border-width($width) {
+@mixin border-width($width) {
   border-width: $width;
 }
 
